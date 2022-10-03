@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'DM Sans', sans-serif;;
+    
+}
+header{
+    background-image: url(imgs/cab.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(22, 22, 22);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    
+}
+.logoheader {
+    background-image: url(imgs/ryanlogo2.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 100px;
+    margin-left: 70px;
+    margin-left: 500px;
+    margin-top: 110px;
+}
+.hs{
+    color: #ffffff;
+}
+nav{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center ;
+    flex-direction: row;
+    gap: 25px;
+}
+
+
+
+
+
+.parte1{
+    background-image: linear-gradient(90deg, #080a0a 40%,   #003636 100%);
+    width: 100%;
+    height: 580px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.apresentacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+.rafaa{
+    color: rgb(5, 204, 187);
+}
+h1{
+    color: #ffffff;
+    font-size: 60px;
+}
+h5{
+    color: rgb(5, 204, 187);
+    font-size: 30px;
+
+}
+h6{
+    color:#ffffff;
+    font-size: 20px; 
+}
+.texto1{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    width: 50%;
+}
+.linha{
+    width: 350px;
+    height: 5px;
+    background-color:  rgb(5, 204, 187);;
+}
+.foto1{
+    background-image: url(imgs/ryanport.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 400px;
+    
+    
+}
+
+
+
+
+
+.parte2{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.texto2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.linha2{
+    width: 350px;
+    height: 5px;
+    background-color:  rgb(5, 204, 187);
+}
+.mim{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+.parte3{
+    background-color:rgb(19, 19, 19);
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+.foto3{
+    background-image: url(imgs/ryanfoto2.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 400px;
+}
+.texto3{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.apresentacao3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    
+}
+.linha3{
+    width: 350px;
+    height: 5px;
+    background-color:  rgb(5, 204, 187);
+}
+.alinharplacas3{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+.placa3{
+    background-image: url(imgs/placa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+    
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.h6pt3{
+    color: #ffffff;
+    line-height: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+.parte4{
+    background-image: linear-gradient(90deg, #003636 40%, #080a0a 100%);
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.projetosap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.pro1{
+    width: 400px;
+    height: 250px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: transform .7s;
+    flex-wrap: wrap;
+    background-image: linear-gradient(90deg, rgb(5, 204, 187) 40%,   #003636 100%);
+    padding-top: 15PX;
+}
+.pro1:hover{
+    transform: scale(1.1);
+}
+.pro1img1{
+    background-image: url(imgs/pro1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    
+}
+.pro1img2{
+    background-image: url(imgs/pro2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    
+}
+.pro1img3{
+    background-image: url(imgs/pro3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 250px;
+    
+}
+.vertd{
+    margin-top: 40px;
+}
+#btn{
+    transition: transform .7s;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+.verpro{
+    color: black;
+}
+.copy{
+    margin-top: 50px;
+    margin-left: 750px;
+    opacity: .5;
+    
+    font-size: small
+    
+}
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    
+    gap: 15px;
+    align-items: center;
+    align-content: center;
+    
+}
+.divinsta{
+    background-image: url(imgs/Insta.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+}
+.divlink{
+    background-image: url(imgs/Linke.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divface{
+    background-image: url(imgs/face.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divgit{
+    background-image: url(imgs/git.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divtt{
+    background-image: url(imgs/tt.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divtw{
+    background-image: url(imgs/twit.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divsteam{
+    background-image: url(imgs/steam.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    
+}
+.divapre{
+    background-image: url(imgs/minhasredes.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 30px;
+    
+}
+
+
+
+
+
+
+
+.linha{
+    animation: linha 2s backwards;
+}
+.texto1{
+    animation: slideRow .9s backwards;
+}
+.foto1{
+    animation: slideRowInv .9s backwards;
+    animation-duration: 2s;
+}
+@keyframes slideRow {
+    from{
+        opacity: 0;
+        transform: translateX(-180px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideRowInv {
+    from{
+        opacity: 0;
+        transform: translateX(-180px);
+        
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+}
+
+
+
+@keyframes linha {
+    from{
+        width: 2px;
+    }
+
+    to{
+        width: 350px;
+    }
+}
+
+/**https://www.origamid.com/codex/animacao-durante-o-scroll//**/
