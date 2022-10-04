@@ -597,6 +597,7 @@ footer{
         height: 800px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     h1{
         font-size: 30px;
@@ -607,8 +608,12 @@ footer{
     h6{
         font-size: 15px;
     }
+    .apresentacao{
+        justify-content: center;
+    }
     .linha{
-        width: 350px;
+        width: 300px;
+        animation: none;
         justify-content: center;
     }
     .texto1{
