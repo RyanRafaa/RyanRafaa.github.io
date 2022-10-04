@@ -467,10 +467,16 @@ footer{
         font-size: 15px;
     }
     .linha{
-        width: 200px;
+        width: 350px;
+        justify-content: center;
+    }
+    .texto1{
+        width: 300px;
+        text-align: center;
+
     }
     .foto1{
-        width: 500px;
+        width: 400px;
     }
 
     .parte2{
@@ -480,7 +486,7 @@ footer{
     
     .parte3{
         flex-direction: column;
-        height: 900px;
+        height: 850px;
         gap: 15px;
     }
     .foto3{
@@ -488,7 +494,23 @@ footer{
         width: 350px;
         height: 350px;
     }
+    .placa3{
+        
+        background-image: none;
+        background-image: linear-gradient(90deg, #003636 40%, #080a0a 100%);
+        
+        width: 150px;
+        height: 100px;
+        border-radius: 15px;
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+        
     
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
     .parte4{
         flex-direction: column;
         height: 100%;
@@ -497,6 +519,23 @@ footer{
     .projetosap{
         flex-direction: column;
         gap: 50px;
+
+    }
+    .pro1{
+        width: 350px;
+        height: 150px;
+    }
+    .pro1img1{
+        width: 350px;
+        height: 150px;
+    }
+    .pro1img2{
+        width: 350px;
+        height: 150px;
+    }
+    .pro1img3{
+        width: 350px;
+        height: 150px;
     }
 
 
@@ -505,18 +544,14 @@ footer{
 
     footer{
         position: relative;
-        
+        justify-content: center;
         background-color: #080a0a;
     }
     .divinsta{
-        margin-left: 10px;
+        margin-left: 0px;
     }
     .divapre{
-        background-image: url(imgs/minhasredes.png);
-        background-size: 150px;
-        background-repeat: no-repeat;
-        width: 300px;
-        height: 30px;
+        display: none;
         
     }
     .copy{
