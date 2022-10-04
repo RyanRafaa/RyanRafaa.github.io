@@ -431,8 +431,149 @@ footer{
         width: 350px;
     }
 }
+@media only screen and (max-width: 449px){
+    header{
+        
+        background-size: 100%;
+        gap: 0px;
+        justify-content: center;
+        width: 100%;
+        height: 30px;
+        position: relative;
+        
+        
+    }
+    .logoheader{
+        margin-left: 0px;
+        
+        
+    }
+    nav{
+        display: none;
+    }
+    .parte1{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .apresentacao{
+        justify-content: center;
+    }
+    .linha{
+        width: 300px;
+        height: 3px;
+        animation: none;
+    }
+    .texto1{
+        width: 300px;
+        text-align: center;
 
-@media (max-width: 600px){
+    }
+    .foto1{
+        background-size: 100%;
+        width: 250px;
+        height: 220px;
+    }
+
+    .parte2{
+        height: 400px;
+    }
+    .linha2{
+        width: 300px;
+        height: 3px;
+    }
+    .parte3{
+        flex-direction: column;
+        height: 850px;
+        gap: 15px;
+    }
+    .foto3{
+        background-size: 100%;
+        width: 300px;
+        height: 300px;
+    }
+    .placa3{
+        
+        background-image: none;
+        background-image: linear-gradient(90deg, #003636 40%, #080a0a 100%);
+        
+        width: 150px;
+        height: 100px;
+        border-radius: 15px;
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.3);
+        
+    
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+    }
+    .linha3{
+        width: 300px;
+        height: 3px;
+    }
+    .parte4{
+        flex-direction: column;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .projetosap{
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    .pro1{
+        width: 300px;
+        height: 150px;
+    }
+    .pro1img1{
+        width: 300px;
+        height: 150px;
+    }
+    .pro1img2{
+        width: 300px;
+        height: 150px;
+    }
+    .pro1img3{
+        width: 300px;
+        height: 150px;
+    }
+
+
+
+
+
+    footer{
+        position: relative;
+        justify-content: center;
+        background-color: #080a0a;
+    }
+    .divinsta{
+        margin-left: 0px;
+    }
+    .divapre{
+        display: none;
+        
+    }
+    .copy{
+        margin-top: 10px;
+        margin-left: 0px; 
+        text-align: center;     
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 450px){
     header{
         
         background-size: 100%;
@@ -556,7 +697,8 @@ footer{
     }
     .copy{
         margin-top: 10px;
-        margin-left: 0px;      
+        margin-left: 0px;   
+        text-align: center;    
     }
 
 }
