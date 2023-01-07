@@ -108,6 +108,14 @@ h6{
     
     
 }
+.play{
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    background-image: linear-gradient(90deg, #080a0a 40%,   #003636 100%);
+    border-color: #ffffff;
+    color: #ffffff;
+}
 
 
 
