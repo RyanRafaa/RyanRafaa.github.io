@@ -43,4 +43,6 @@ document.addEventListener('keydown', jump);
 function recarregarAPagina(){
     window.location.reload();
 } 
-
+function sairAPagina(){
+window.history.back()
+}
